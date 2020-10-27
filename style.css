@@ -1,0 +1,180 @@
+/* navbar */
+.navbar-brand{
+  font-family: Viga;
+  font-size: 32px;
+}
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+/* desktop version */
+@media (min-width: 992px){
+  .nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, alpha);
+  }
+  .nav-link:hover:after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #4A9BD6;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  .jumbotron{
+    margin-top: -75px;
+    height: 640px;
+  }
+  .navbar-brand, .nav-link{
+    color: white !important;
+  }
+  .jumbotron .display-4{
+    color: white;
+    margin-top: 100px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 35px;
+    margin-bottom: 21px;
+  }
+  .jumbotron .display-4 span{
+    font-weight: 500;
+    font-weight: bold;
+  }
+}
+/* utilities */
+.tombol{
+  text-transform: uppercase;
+  border-radius: 40px;
+  font-weight: bold;
+}
+/* jumbotron */
+.jumbotron{
+  background-image: url('agreement-business-clapping-990817.jpg');
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+  position: relative;
+}
+.jumbotron .display-4{
+  font-size: 62px;
+  color: white;
+  font-weight: 200;
+}
+.jumbotron .display-4 span{
+  font-weight: 500;
+}
+.jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+.jumbotron .container{
+  z-index: 1;
+  position: relative;
+}
+
+/* infopanel */
+.info-panel{
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-top: -100px;
+  background-color: white;
+  padding: 30px;
+}
+.info-panel img{
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.info-panel h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.info-panel p{
+  font-size: 15px;
+  color: #bdbdbd;
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+/* workspace */
+.workspace{
+  margin-top: 107px;
+}
+.workspace h3{
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 67px;
+  color: #21306B;
+}
+.workspace h3 span {
+  font-weight: 400;
+  font-weight: bold;
+}
+.workspace p{
+  color: #bdbdbd;
+  font-size: 20px;
+  margin: 42px 0;
+}
+.img-fluid{
+  border-radius: 20px;
+  width: 551px;
+  height: 436px;
+}
+
+/* testi */
+.tesimoni{
+  text-align: center;
+}
+.testimoni h5{
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 32px;
+  color: #21306B;
+  margin-top: 107px;
+}
+.testimoni figure img{
+  width: 70px;
+  height: 70px;
+  margin: 36px 15px 0px;
+  opacity: 0.6;
+}
+.testimoni figure img.utama{
+  width: 90px;
+  height: 90px;
+  opacity: 1;
+}
+.testimoni figure h5{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    color: #21306B;
+    margin-top: 21px;
+}
+.testimoni figcaption{
+  font-size: 15px;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+/* footer */
+.footer{
+  margin-top: 130px;
+}
+.footer p{
+  color: #bdbdbd;
+  font-size: 20px;
+}
